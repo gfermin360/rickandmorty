@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import './App.css'
 import useFetch from './hook/useFetch'
-import Header from './components/header';
+import Header from './components/Header';
 import SearchForm from './components/SearchForm';
 import LocationCard from './components/LocationCard';
 import ResidentCard from './components/ResidentCard';
