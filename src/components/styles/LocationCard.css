@@ -1,0 +1,173 @@
+.location__super__container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.locationContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4em;
+  position: relative;
+}
+
+.location__btn {
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+.location__btn--icon {
+  font-size: 3rem;
+  color:  #71a821;
+}
+
+.location__btn--icon:hover {
+  filter: brightness(1.2);
+  transform: scale(1.1);
+}
+
+.location__btn--disabled {
+  font-size: 3rem;
+  color:  #72a82165;
+}
+
+
+.location {
+  background-color: #072226;
+  width: 35em;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px 1px #00000071;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 3em 0;
+}
+
+.location__pages__container {
+  position: absolute;
+  top: 0;
+  background-color: none;
+  width: 100%;
+  height: 15%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 0.5em 1em;
+  gap: 0.5em;
+  margin: 0.5em 0 1em 0;
+}
+
+.location__pages__numb {
+  background-color: #fff;
+  border-radius: 50%;
+  height: 2em;
+  width: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #71a821;
+  cursor: pointer;
+}
+
+.location__pages__numb:hover {
+  transform: scale(1.1);
+}
+
+.location__pages__numb--active { 
+  background-color: #71a821;
+  border-radius: 50%;
+  height: 2em;
+  width: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  cursor: pointer;
+}
+
+.location__id {
+  background-color: #072226;
+  color:  #fff;
+  width: 2.5em;
+  height: 2.5em;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -10%;
+  left: 50%;
+  transform: translate(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+  font-weight: 700;
+  box-shadow: 2px 2px 5px 1px #00000071;
+  border: solid 1px #fff;
+
+}
+
+.location__tittle {
+  font-size: 1.7rem;
+  color:  #71a821;
+  padding-bottom: 0.6em;
+  text-align: center;
+  margin-top: 0.5em;
+}
+
+.location__info__container {
+  width: 100%;
+  padding: 0 2em;
+  display: flex;
+  justify-content: space-around;
+}
+
+.location__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.location__info--tittle {
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.05rem;
+  margin-bottom: 0.3em;
+}
+
+.location__info--content {
+  color: #fff;
+  font-weight: 100;
+  text-align: center;
+}
+
+
+@media (max-width:768px) {
+
+  .locationContainer {
+    width: 80%;
+  }
+
+  .next {
+    position: absolute;
+    bottom: -10%;
+    right: 15%;
+    z-index: 1;
+  }
+
+  .prev {
+    position: absolute;
+    bottom: -10%;
+    left: 15%;
+    z-index: 1;
+  }
+
+}
+
+
+

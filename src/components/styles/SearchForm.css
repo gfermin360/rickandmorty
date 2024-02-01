@@ -1,0 +1,30 @@
+.form { 
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 9em;
+  margin-bottom: 1.3em;
+}
+
+.form__input {
+  border: none;
+  border-radius: 10px 0px 0 10px;
+  height: 2.5em;
+  width: 15em;
+  box-shadow: 2px 2px 10px 0px #0000006b
+}
+
+.form__btn {
+  border: none;
+  border-radius: 0px 10px 10px 0px;
+  height: 2.5em;
+  width: 6em;
+  background-color: #71a821;
+  color: #fff;
+  box-shadow: 5px 2px 10px 0px #0000006b
+}
+
+.form__btn:hover {
+  filter: brightness(1.1);
+}
